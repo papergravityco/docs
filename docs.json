@@ -9,42 +9,49 @@
     "dark": "#15803D"
   },
   "favicon": "/favicon.svg",
-  "navigation": [
-    {
-      "link": "",
-      "pages": ["index"]
-    },
-    {
-      "link": "parksig",
-      "group": "ParkSig",
-      "pages": ["parksig/index"],
-      "children": [
-        {
-          "group": "Guide",
-          "pages": ["parksig/getting-started", "parksig/api-reference"]
-        },
-        {
-          "group": "Support",
-          "pages": ["parksig/faq"]
-        }
-      ]
-    },
-    {
-      "link": "pixlayo",
-      "group": "Pixlayo",
-      "pages": ["pixlayo/index"],
-      "children": [
-        {
-          "group": "Overview",
-          "pages": ["pixlayo/overview", "pixlayo/integrations"]
-        },
-        {
-          "group": "Troubleshooting",
-          "pages": ["pixlayo/troubleshooting"]
-        }
-      ]
-    }
-  ],
+  "navigation": {
+    "pages": ["index"],
+    "products": [
+      {
+        "product": "ParkSig",
+        "icon": "sign-hanging",
+        "groups": [
+          {
+            "group": "ParkSig",
+            "root": "parksig/index",
+            "pages": []
+          },
+          {
+            "group": "Guide",
+            "pages": ["parksig/getting-started", "parksig/api-reference"]
+          },
+          {
+            "group": "Support",
+            "pages": ["parksig/faq"]
+          }
+        ]
+      },
+      {
+        "product": "Pixlayo",
+        "icon": "images",
+        "groups": [
+          {
+            "group": "Pixlayo",
+            "root": "pixlayo/index",
+            "pages": []
+          },
+          {
+            "group": "Overview",
+            "pages": ["pixlayo/overview", "pixlayo/integrations"]
+          },
+          {
+            "group": "Troubleshooting",
+            "pages": ["pixlayo/troubleshooting"]
+          }
+        ]
+      }
+    ]
+  },
   "logo": {
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"

@@ -82,9 +82,6 @@
     ]
   },
   "footer": {
-    "socials": {
-      "x": "https://x.com/papergravity",
-      "github": "https://github.com/papergravity"
-    }
+    "socials": {}
   }
 }

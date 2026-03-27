@@ -1,0 +1,40 @@
+---
+title: 'API reference'
+description: 'Programmatic access to ParkSig'
+---
+
+## Authentication
+
+All API requests require a bearer token in the `Authorization` header.
+
+```bash
+Authorization: Bearer YOUR_API_KEY
+```
+
+Retrieve your API key from the ParkSig dashboard under **Settings > API**.
+
+## Base URL
+
+```
+https://api.papergravity.com/parksig/v1
+```
+
+## Endpoints
+
+### Signs
+
+| Method   | Endpoint      | Description    |
+| -------- | ------------- | -------------- |
+| `GET`    | `/signs`      | List all signs |
+| `POST`   | `/signs`      | Create a sign  |
+| `GET`    | `/signs/{id}` | Get a sign     |
+| `PUT`    | `/signs/{id}` | Update a sign  |
+| `DELETE` | `/signs/{id}` | Delete a sign  |
+
+### Permits
+
+| Method   | Endpoint        | Description     |
+| -------- | --------------- | --------------- |
+| `GET`    | `/permits`      | List permits    |
+| `POST`   | `/permits`      | Issue a permit  |
+| `DELETE` | `/permits/{id}` | Revoke a permit |

@@ -1,35 +1,44 @@
 ---
 title: 'Getting started'
-description: 'Set up ParkSig and configure your first parking sign permit'
+description: 'Set up ParkSig and start managing parking permits'
 ---
 
 ## Prerequisites
 
 Before you begin, make sure you have:
 
-- A ParkSig account
-- API credentials from the dashboard
+- A ParkSig account — sign up at [parksig.com](https://parksig.com)
 
-## Installation
+## Set up your first parking location
 
 <Steps>
-  <Step title='Create your account'>
-    Sign up at [papergravity.com](https://papergravity.com) and navigate to the
-    ParkSig app.
+  <Step title='Sign in and open ParkSig'>
+    Sign in to your account and navigate to the ParkSig dashboard. You'll see a summary of your locations, spaces, and occupancy.
   </Step>
-  <Step title='Configure your first sign'>
-    Follow the setup wizard to register your parking location and sign details.
+  <Step title='Add a parking location'>
+    Go to **Parking Locations** and click **Add Location**. Fill in the location details:
+
+    - **Name** — a label for this location (e.g. "Main Street Lot")
+    - **Address** — the full street address
+    - **Total spaces** — the capacity of the lot
+    - **Rates** — hourly, daily, and monthly pricing
+    - **Features** — optional amenities like covered parking or EV charging
   </Step>
-  <Step title='Go live'>
-    Publish your sign configuration and start managing permits.
+  <Step title='Configure the parking flyer'>
+    In the same form, customize the **parking registration flyer** instructions. This text appears on the printed sign that directs visitors to scan a QR code and register their vehicle.
+
+    Click **Create Location** when done.
+  </Step>
+  <Step title='Register a visitor'>
+    Go to **Visitor Registrations** and click **Register Visitor**. Enter the visitor's vehicle details and select the parking location. The permit is active immediately.
   </Step>
 </Steps>
 
 ## Next steps
 
 <CardGroup cols={2}>
-  <Card title='API reference' icon='code' href='/parksig/api-reference'>
-    Integrate ParkSig with your own systems using the API.
+  <Card title='Dashboard' icon='gauge' href='/parksig/dashboard'>
+    Learn what each section of the dashboard shows.
   </Card>
   <Card title='FAQ' icon='circle-question' href='/parksig/faq'>
     Find answers to common questions.

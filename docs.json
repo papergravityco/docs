@@ -1,8 +1,7 @@
 {
-  "$schema": "https://mintlify.com/schema.json",
+  "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
   "name": "PaperGravity Docs",
-  "domain": "docs.papergravity.com",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
@@ -10,7 +9,6 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "pages": ["index"],
     "products": [
       {
         "product": "ParkSig",
@@ -23,7 +21,7 @@
           },
           {
             "group": "Guide",
-            "pages": ["parksig/getting-started", "parksig/api-reference"]
+            "pages": ["parksig/getting-started"]
           },
           {
             "group": "Support",

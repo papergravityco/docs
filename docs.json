@@ -21,7 +21,7 @@
           },
           {
             "group": "Guide",
-            "pages": ["parksig/getting-started"]
+            "pages": ["parksig/getting-started", "parksig/dashboard"]
           },
           {
             "group": "Support",

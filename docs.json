@@ -24,7 +24,8 @@
             "pages": [
               "parksig/getting-started",
               "parksig/dashboard",
-              "parksig/locations"
+              "parksig/locations",
+              "parksig/registrations"
             ]
           },
           {

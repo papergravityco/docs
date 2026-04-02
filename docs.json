@@ -25,7 +25,8 @@
               "parksig/getting-started",
               "parksig/dashboard",
               "parksig/locations",
-              "parksig/registrations"
+              "parksig/registrations",
+              "parksig/notifications"
             ]
           },
           {

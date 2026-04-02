@@ -1,0 +1,95 @@
+---
+title: 'Settings'
+description: 'Manage your profile, security, team, billing, and account preferences'
+---
+
+The **Settings** area lets you configure your personal preferences and, depending on your role, manage account-wide options. The sidebar shows only the sections available to your role.
+
+## Profile
+
+Update your display name, email address, and timezone.
+
+- **Name** — Edit your full name and click **Save** to apply the change.
+- **Email address** — Your current email is read-only. Click **Change email** to open a dedicated flow where you enter a new address. A confirmation link is sent to the new address; clicking it completes the change.
+- **Timezone** — Select your local timezone from the dropdown. This affects how dates and times are displayed throughout the dashboard.
+
+## Security
+
+Manage your password and two-factor authentication (2FA).
+
+### Updating your password
+
+Enter your **Current password**, then provide a **New password** and confirm it. The new password must meet the displayed strength requirements. Click **Save password** to apply.
+
+### Two-factor authentication
+
+If your account supports 2FA, a **Two-factor authentication** section appears. When enabled, you will be prompted for a one-time code from a TOTP-compatible authenticator app (such as Google Authenticator or Authy) on each login.
+
+- Click **Enable 2FA** to begin setup. Scan the QR code or enter the manual key into your authenticator app, then confirm the code to activate.
+- Click **Disable 2FA** to remove the requirement.
+- Use **View recovery codes** to generate backup codes you can use if you lose access to your authenticator app. Store these somewhere safe.
+
+## Team management
+
+<Info>This section is only visible to **admins** and **owners**.</Info>
+
+View and manage the members of your account team. Each member has one of the following roles:
+
+| Role | Permissions |
+|---|---|
+| **Owner** | Full access to all settings, billing, and team management. |
+| **Admin** | Can manage locations and viewer-level team members. |
+| **Viewer** | Read-only access to parking data. |
+
+### Adding a team member
+
+Click **Add Team Member** and fill in the member's details. Owners can assign any role; admins can only invite viewers.
+
+### Editing or removing a member
+
+Use the edit or delete actions in the members table. Owners cannot be edited or removed by other team members. Admins can only edit or remove viewers.
+
+## Billing & invoices
+
+<Info>This section is only visible to the **account owner**.</Info>
+
+View your current subscription status and manage billing details.
+
+| Status | Description |
+|---|---|
+| **Active** | You have a paid subscription in good standing. |
+| **Ending soon** | Your subscription is on a grace period and will end on the shown date. |
+| **Trial active** | You are within your 21-day free trial. |
+| **Inactive** | Your trial has ended and no active subscription exists. |
+
+If you have an active subscription, click **Manage Billing** to open Stripe's secure billing portal where you can update payment methods, download invoices, or cancel your subscription.
+
+If you are on a trial or have no active plan, available pricing plans are shown so you can subscribe.
+
+## Appearance
+
+Choose how the dashboard looks. Select one of three options:
+
+| Option | Description |
+|---|---|
+| **Light** | Always use the light theme. |
+| **Dark** | Always use the dark theme. |
+| **System** | Match your device's system preference. |
+
+Your selection is saved automatically.
+
+## Account
+
+<Info>This section is only visible to the **account owner**.</Info>
+
+### Delete expired or cancelled registrations
+
+Permanently delete visitor registrations that have already expired or been cancelled. Select a time threshold from the dropdown — for example, registrations with a parking end time older than 30 days — then click **Delete expired or cancelled registrations** and confirm.
+
+Options range from deleting all expired records to those older than 365 days.
+
+<Warning>This action is permanent and cannot be undone.</Warning>
+
+### Cancel account
+
+Use the **Cancel Account** section to permanently delete your ParkSig account. If you have an active subscription, you will need to cancel it before deleting the account.

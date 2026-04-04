@@ -12,7 +12,7 @@
     "products": [
       {
         "product": "ParkSig",
-        "icon": "sign-hanging",
+        "icon": "car",
         "groups": [
           {
             "group": "ParkSig",
@@ -38,7 +38,7 @@
       },
       {
         "product": "Pixlayo",
-        "icon": "images",
+        "icon": "cards-blank",
         "groups": [
           {
             "group": "Pixlayo",

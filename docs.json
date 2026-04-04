@@ -15,13 +15,9 @@
         "icon": "car",
         "groups": [
           {
-            "group": "ParkSig",
-            "root": "parksig/index",
-            "pages": []
-          },
-          {
             "group": "Guide",
             "pages": [
+              "parksig/index",
               "parksig/getting-started",
               "parksig/dashboard",
               "parksig/locations",
@@ -41,13 +37,8 @@
         "icon": "cards-blank",
         "groups": [
           {
-            "group": "Pixlayo",
-            "root": "pixlayo/index",
-            "pages": []
-          },
-          {
             "group": "Guide",
-            "pages": []
+            "pages": ["pixlayo/index"]
           },
           {
             "group": "Support",
